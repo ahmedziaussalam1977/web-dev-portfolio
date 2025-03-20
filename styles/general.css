@@ -27,14 +27,14 @@ button {
 }
 
 /* Reset form elements */
-input,
+/* input,
 textarea,
 select,
 button {
   font: inherit;
   border: none;
-  background: none;
-}
+  background: white;
+} */
 
 /* Remove default styles for strong and emphasis */
 strong,
