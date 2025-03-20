@@ -1,0 +1,62 @@
+/* Modern CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* Remove default list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Reset anchor styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default button styles */
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+/* Reset form elements */
+input,
+textarea,
+select,
+button {
+  font: inherit;
+  border: none;
+  background: none;
+}
+
+/* Remove default styles for strong and emphasis */
+strong,
+em {
+  font-weight: inherit;
+  font-style: normal;
+}
+
+/* Reset table styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Modern body defaults */
+body {
+  min-height: 100vh;
+}
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
